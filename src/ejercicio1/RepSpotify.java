@@ -1,6 +1,6 @@
 package ejercicio1;
 
-public class RepSpotify extends ReproductorMusica implements iPremium{
+public class RepSpotify extends ReproductorMusica implements iPremium,iFree{
 
     public RepSpotify() {
         nombre = "Spotify";

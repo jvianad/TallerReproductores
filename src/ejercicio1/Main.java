@@ -2,6 +2,8 @@ package ejercicio1;
 
 public class Main {
     public static void main(String[] args) {
+        //realizando cambios para probar
+        //reproductor premium
         RepSpotify spoty = new RepSpotify();
         spoty.reproducirMusica();
         spoty.pausarMusica();
@@ -12,6 +14,7 @@ public class Main {
 
         System.out.println();
 
+        //reproductor free
         RepJmusic deezer = new RepJmusic();
         deezer.reproducirMusica();
         deezer.pausarMusica();
